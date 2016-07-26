@@ -1,0 +1,4 @@
+# Pasos para la instalación
+
+git submodule init
+git submodule update

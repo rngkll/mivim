@@ -45,3 +45,7 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Akamai - Work Related changes
+" Push to ETN
+command -nargs=? Etnpush !$HOME/akamai/etn-push.sh % <args>

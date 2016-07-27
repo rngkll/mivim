@@ -1,6 +1,8 @@
 set background=dark
 syntax on
 set backspace=indent,eol,start
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+set laststatus=2
 
 set nocompatible              " be iMproved, required
 filetype off                  " required

@@ -1,0 +1,9 @@
+# Pasos para la instalación
+
+## En el directorio .vim se cargan los submodulos
+`git submodule init`
+`git submodule update`
+
+## Instalar los plugins
+Abrir vim y ejecutar
+`PluginUpdate`

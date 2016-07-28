@@ -1,4 +1,9 @@
 set background=dark
+syntax on
+set backspace=indent,eol,start
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+set laststatus=2
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -40,3 +45,7 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Akamai - Work Related changes
+" Push to ETN
+command -nargs=? Etnpush !$HOME/akamai/etn-push.sh % <args>

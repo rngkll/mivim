@@ -37,6 +37,7 @@ Plugin 'spell.vim'
 Plugin 'tomlion/vim-solidity'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'jelera/vim-javascript-syntax'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

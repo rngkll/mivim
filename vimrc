@@ -32,8 +32,20 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
-Plugin 'Python-mode-klen'
 Plugin 'spell.vim'
+Plugin 'tomlion/vim-solidity'
+Plugin 'fatih/vim-go' 
+
+" Python plugins
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'nvie/vim-flake8'
+
+" Ansible plugin "
+Plugin 'pearofducks/ansible-vim'
+
+" Install neomake"
+Plugin 'neomake/neomake'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

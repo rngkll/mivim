@@ -1,3 +1,6 @@
+" backspace as normal
+set backspace=indent,eol,start
+
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -43,6 +46,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
+
+Plug 'pearofducks/ansible-vim'
 
 " Initialize plugin system
 call plug#end()

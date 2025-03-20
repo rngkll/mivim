@@ -1,5 +1,12 @@
 " backspace as normal
 set backspace=indent,eol,start
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
+set ruler
 
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -48,6 +55,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Plug '~/my-prototype-plugin'
 
 Plug 'pearofducks/ansible-vim'
+
+" Terraform plugin
+Plug 'hashivim/vim-terraform'
 
 " Initialize plugin system
 call plug#end()
